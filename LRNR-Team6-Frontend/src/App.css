@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body, html {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* quiz form  */
+body .form-select {
+  border: 1.5px solid #5161ce;
+  position: relative;
+  padding: 2vh 1.5vw;
+  cursor: pointer;
+}
+
+.form-select:focus + .dropdown-menu {
+  transition: all 0.3s ease-in-out;
+  background-color: #80b1ca;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0);
+}
+
+body .btn-custom {
+  background-color: #9931e9;
+  border-color: #9931e9;
+}
+
+/* On hover, darken the background color */
+body .btn-custom:hover {
+  background-color: #7f2992;
+  border-color: #7f2992;
+}
+
+
+/* ---------HOME MAIN PAGE CONTENT ------------ */
+/* -------HOME HERO IMAGE-------  */
+.hero-v1 {
+  padding: 8rem 0 8rem 0;
+  border-bottom-right-radius: 50%;
+  background: rgba(98, 69, 151, 0.1);
+  overflow: hidden; 
+  margin-bottom: 10vh;
+}
+
+.hero-v1 .heading {
+  font-weight: 900;
+  color: #6f42c1;
+  font-size: 40px;  
+}
+
+.hero-v1 .subheading {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(111, 66, 193, 0.5);
+  letter-spacing: .1rem;
+  font-weight: 900; 
+}
+
+.hero-v1 .illustration img {
+  margin-top: 0vh;
+  margin-left: 12%;
+  padding: 40px; 
+  background: linear-gradient(to bottom right, #84c2d0, #4B0082); 
+  border-radius: 76% 24% 79% 21% / 17% 70% 30% 83%;
+}
+
+/* SECOND HERO IMAGE / WHAT IS LRNR? */
+ /* 2ND HERO IMAGE SECTION */
+
+.site-section {
+  padding: 90px 0; 
+}
+
+.custom-heading2 {
+  font-weight: 900;
+  color: #6f42c1;
+  font-size: 40px;
+}
+
+.img-fluid {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    padding: 40px;
+    background: rgba(89, 41, 179, 0.174);
+    border-radius: 90% 10% 89% 11% / 13% 83% 17% 87% 
+}
+
+
+/* -------BUTTON ON MAIN HOME PAGE------- */
+      
+.btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 30px;
+ }
+
+.btn.btn-primary {
+  background: #6f42c1;
+  border-color: #6f42c1;
+  color: #fff; 
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover {
+  background-color: #432875;
+  border-color: #432875;
+  color: #fff; 
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* -------CARDS INFO-------  */
+
+.custom-heading3 {
+  font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(111, 66, 193, 0.5);
+    letter-spacing: .1rem;
+    font-weight: 900;
+}
+
+/* background color of card div */
+.bg-custom-color {
+  background-color: rgba(111, 66, 193, 0.05);
+  width: 100%;
+}
+
+/* card size  */
+.single-feature {
+  text-align: center;
+  margin-bottom: 3vh;
+  padding: 95px 30px 35px;
+  margin: 0 auto; 
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  background: linear-gradient(to top left, #84c2d0, #3406b1);
+  border-radius: 10px;
+  width: 87%; 
+}
+
+.row > * {
+  margin-bottom: 20px; /* Adjust the space between each card */
+}
+
+.single-feature .content .title {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+
+.single-feature .content .card-text {
+  color: #d6d6d8; /* Adjust the color for the card text */
+}
+
+.single-feature:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
