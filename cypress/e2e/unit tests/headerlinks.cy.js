@@ -1,0 +1,15 @@
+describe('Test header links', () => {
+    it('passes', () => {
+        cy.visit('http://localhost:3000/')
+        cy.contains('Home').click()
+        cy.url().should('include', '/')
+        cy.contains('Account').click()
+        cy.url().should('include', '/account')
+        cy.contains('Quiz').click()
+        cy.url().should('include', '/quiz')
+        cy.contains('Results').click()
+        cy.url().should('include', '/results')
+        cy.contains('LRNR').click()
+        cy.url().should('include', '/')
+    })
+  })

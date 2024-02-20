@@ -4,6 +4,6 @@ describe('Generates quiz', () => {
 
     cy.get('#btn-categories').click()
     cy.url().should('include', '/quiz')
-    cy.contains('Question 1', {timeout: 150000}).should('exist')
+    cy.contains('Question 1', { timeout: 150000 }).should('exist')
   })
 })
